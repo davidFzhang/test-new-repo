@@ -93,4 +93,4 @@ git push -u test-hs2 master || 正常
 
 仍然不是
 
-
+6. 直接使用 git config user.* 登錄 name mail
