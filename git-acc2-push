@@ -6,3 +6,8 @@ as title
 git push -u test-hub master || 正常
 git push -u test master || 正常
 git push -u test-hs2 master || 正常
+
+將 [remote "test-hs2"] url主機 自github.com-2 改為 github.com
+git push -u test-hs2 master || 失敗
+git push -u test-hub master || 正常
+git push -u test master || 正常
