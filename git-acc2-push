@@ -2,3 +2,7 @@ as title
 再一次～再一次～
 再一次～再一次～
 刪除 .gitconfig-2 清空 GIT_SSH_COMMAND 皆無影響
+更改~/.ssh/config 中的 hostname為 github.com
+git push -u test-hub master || 正常
+git push -u test master || 正常
+git push -u test-hs2 master || 正常
