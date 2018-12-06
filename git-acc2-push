@@ -63,7 +63,7 @@ git push -u test-hs2 master || 正常
 
 
 猜測2-作者變更：
-那我猜應該就是ui的user跟mail了
+那我猜應該就是`user.name``user.mail`了
 但是,是哪個捏？
 
 
