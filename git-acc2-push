@@ -66,4 +66,7 @@ git push -u test-hs2 master || 正常
 那我猜應該就是`user.name``user.mail`了
 但是,是哪個捏？
 
+實驗3: 我猜是mail 因為git帳號是認mail的
+1. 增加一個`~/.gitconfig-2`的檔案 將`[user] mail`設定為另一組
+2. 在`~/.gitconfig`加入引用`~/.gitconfig-2`的區塊
 
