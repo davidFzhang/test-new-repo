@@ -11,3 +11,5 @@ git push -u test-hs2 master || 正常
 git push -u test-hs2 master || 失敗
 git push -u test-hub master || 正常
 git push -u test master || 正常
+
+可使用 $ ssh -T -p 443 git@ssh.github.com -i ~/.ssh/id_rsa-2; 對第二金鑰進行驗證 
