@@ -109,3 +109,6 @@ push no ~/.gitconfig link
 所以我重開終端機了
 
 仍然不是
+
+一次推三個倉庫XD?
+$ git push -u test* master
