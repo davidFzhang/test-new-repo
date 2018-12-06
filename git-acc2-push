@@ -70,3 +70,6 @@ git push -u test-hs2 master || 正常
 1. 增加一個`~/.gitconfig-2`的檔案 將`[user] mail`設定為另一組
 2. 在`~/.gitconfig`加入引用`~/.gitconfig-2`的區塊
 
+好吧 剛剛的不是,那我增加一個步驟
+剛剛是再編輯完這份文件之後,才加入config檔案的變更
+所以現在我就直接變更這檔案試試看
