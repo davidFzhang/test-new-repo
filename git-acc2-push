@@ -36,3 +36,11 @@ git push -u test-hs2 master || 正常
    但是push時,使用的主機是
    github.com
    雖然用 ssh.github.com 也可以 push 成功
+
+實驗：
+1. 清空 ssh-add 中所有的 ssh-key
+2. 新增 ssh-key
+3. 將新增的公鑰綁定到s2457328 的 github web page 中
+4. 新增一組 ssh-config 設定 指定 新的 host 為 git.again ;並指定剛剛新增的私鑰為其驗證用私鑰
+5. 註解所有舊的ssh-config
+6. 將 REPO/.git/config 的 [remote "test-hs2"] url 的 host 改為 git.again
