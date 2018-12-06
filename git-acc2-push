@@ -110,5 +110,12 @@ push no ~/.gitconfig link
 
 仍然不是
 
+====================================================
+
 一次推三個倉庫XD?
 $ git push -u test* master
+
+error: src refspec test-file.txt does not match any.
+error: failed to push some refs to 'test-file2.txt'
+
+指令不能這麼下XD
