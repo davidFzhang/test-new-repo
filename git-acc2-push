@@ -90,3 +90,7 @@ git push -u test-hs2 master || 正常
 
 5. 在專案的`.git/config`引入該設定
 並且放在最上面
+
+仍然不是
+
+
