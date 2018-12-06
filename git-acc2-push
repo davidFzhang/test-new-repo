@@ -49,3 +49,6 @@ git push -u test-hs2 master || 正常
 1. ssh-add 確實是非必要步驟,連線後會自動加入清單
    可使ssh連線都有獨立config
 2. 不能跳過驗證的步驟,否則將推送失敗
+
+猜測-作者變更：
+懷疑是commit時, [branch "master"] remote = x 的值所導致
