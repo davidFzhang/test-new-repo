@@ -58,3 +58,5 @@ git push -u test-hs2 master || 正常
 2. git add . => 是 test-hub
 3. commit 前 改變為 test-hs2
 4. git ci => test-hs2
+
+實驗失敗 證實猜測錯誤
