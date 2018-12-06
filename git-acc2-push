@@ -13,7 +13,26 @@ git push -u test-hub master || 正常
 git push -u test master || 正常
 
 可使用 $ ssh -T -p 443 git@ssh.github.com -i ~/.ssh/id_rsa-2; 對第二金鑰進行驗證 
+
 將 .git/config 的主機位置　與 ~/.ssh/config 的Host 欄位皆改成s2457328
 git push -u test-hub master || 正常
 git push -u test master || 正常
 git push -u test-hs2 master || 正常
+
+得到結論：
+1. .git/config 對於[remote "xyz"] url 的設定, 會使得實際 ssh 使用上會先去讀‵有相同HOST‵的設定區塊
+2. 不必大費周章,特定為不同的專案,設定使用不同的 user mail 的 config
+   不過設定一下亦是無礙
+3. git 確實可多帳號同主機
+
+猜測：
+1. 不必兩個金鑰都加入
+   因為 ssh 會去讀config 指定HOST的區塊
+   那裡就有規定它應該去使用哪個金鑰
+
+2. 其實 github 不需要特別為此驗證
+   因為它驗證時,使用的主機是
+   ssh.github.com
+   但是push時,使用的主機是
+   github.com
+   雖然用 ssh.github.com 也可以 push 成功
