@@ -52,3 +52,9 @@ git push -u test-hs2 master || 正常
 
 猜測-作者變更：
 懷疑是commit時, [branch "master"] remote = x 的值所導致
+
+實驗2：確立作者
+1. 剛剛打"實驗結果"的值 = test-hub
+2. git add . => 是 test-hub
+3. commit 前 改變為 test-hs2
+4. git ci => test-hs2
