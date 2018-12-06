@@ -60,3 +60,10 @@ git push -u test-hs2 master || 正常
 4. git ci => test-hs2
 
 實驗失敗 證實猜測錯誤
+
+
+猜測2-作者變更：
+那我猜應該就是ui的user跟mail了
+但是,是哪個捏？
+
+
