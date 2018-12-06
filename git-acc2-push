@@ -94,3 +94,13 @@ git push -u test-hs2 master || 正常
 仍然不是
 
 6. 直接使用 git config user.* 登錄 name mail
+
+仍然不是
+
+那之前作者的變更,到底是如何做出來的呢?
+
+push no ~/.gitconfig link
+618a3936745991e285f9dc69fd6e17e4450dae9c
+
+再一次～再一次～
+3f4f41b2ba26b9acbef17cb0d464de34d9586a18
